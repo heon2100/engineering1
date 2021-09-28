@@ -6,6 +6,7 @@
 <input type="number">
 <input type="number" pattern="\d*" placeholder="number">
 
+<input type="number" max="5" maxlength="4" oninput="maxLengthCheck(this)"> <script> function maxLengthCheck(object){ if (object.value.length > object.maxLength){ object.value = object.value.slice(0, object.maxLength); } } </script>
 
 </body>
 
