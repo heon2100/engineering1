@@ -8,7 +8,7 @@ html {
     src: url('/fonts/NanumGothic.eot');
     src: url('/fonts/NanumGothic.eot') format('embedded-opentype'), url('/fonts/NanumGothic.woff') format('woff');
     src: url('/fonts/NanumGothicBold.eot');
-    src: url('/fonts/NanumGothiBold.eot') format('embedded-opentype'), url('/fonts/NanumGothicBold.woff') format('woff');
+    src: url('/fonts/NanumGothicBold.eot') format('embedded-opentype'), url('/fonts/NanumGothicBold.woff') format('woff');
 }
 
 body {
@@ -152,11 +152,11 @@ body {
     width: 0;
     margin: 30px 0;
     background: #eae8e5;
-    -webkit-transition: all 0.5s ease-in;
-    -moz-transition: all 0.5s ease-in;
-    -khtml-transition: all 0.5s ease-in;
-    -o-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
+    -webkit-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -khtml-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    transition: all 2s ease-in;
 }
 
 #nav li+li {
@@ -203,9 +203,9 @@ body {
 
 .demo2.navigation #mobileBodyContent {
     margin-left: 300px;
-    -webkit-opacity: 2;
-    -moz-opacity: 2;
-    -khtml-opacity: 2;
-    -o-opacity: 2;
-    opacity: 2;
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    -o-opacity: 0.6;
+    opacity: 0.6;
 }
