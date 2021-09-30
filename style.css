@@ -1,5 +1,6 @@
-* {padding:0;margin:0;}
-body {background:#fff;}
+* {padding:0;margin:0;box-sizing:border-box;}
+
+body {background:#1f1f1f;}
 header {width:100%;background:#f5f5f5;position:relative;z-index:10;}
 .header-list {width:500px;margin:10px auto;font-size:0;padding:15px 0;}
 .header-list > li {font-size:40px;display:inline-block;vertical-align:middle;}
