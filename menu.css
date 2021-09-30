@@ -7,6 +7,8 @@ html {
     font-family: 'NanumGothic';
     src: url('/fonts/NanumGothic.eot');
     src: url('/fonts/NanumGothic.eot') format('embedded-opentype'), url('/fonts/NanumGothic.woff') format('woff');
+ }
+@font-face {
     font-family: 'NanumGothicBold';
     src: url('/fonts/NanumGothicBold.eot');
     src: url('/fonts/NanumGothicBold.eot') format('embedded-opentype'), url('/fonts/NanumGothicBold.woff') format('woff');
