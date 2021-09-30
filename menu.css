@@ -203,9 +203,9 @@ body {
 
 .demo2.navigation #mobileBodyContent {
     margin-left: 300px;
-    -webkit-opacity: 0.4;
-    -moz-opacity: 0.4;
-    -khtml-opacity: 0.4;
-    -o-opacity: 0.4;
-    opacity: 0.4;
+    -webkit-opacity: 2;
+    -moz-opacity: 2;
+    -khtml-opacity: 2;
+    -o-opacity: 2;
+    opacity: 2;
 }
