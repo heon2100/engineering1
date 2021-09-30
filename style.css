@@ -15,7 +15,7 @@ header {width:100%;background:#f5f5f5;position:relative;z-index:10;}
 .header-list > li > div {width:auto;}
 
 .menu-ul {font-size:0;}
-.menu-ul > li {font-size:12px;display:inline-block;vertical-align:middle;}
+.menu-ul > li {font-size:6px;display:inline-block;vertical-align:middle;}
 .menu-ul > li > a {display:block;width:auto;padding:15px;}
 
 input[id="menuicon"] {display:none;}
