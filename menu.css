@@ -144,6 +144,7 @@ body {
 }
 
 #nav {
+    font-family: 'NanumGothic', sans-serif;
     position: absolute;
     z-index: 10;
     list-style-type: none;
