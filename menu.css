@@ -204,7 +204,7 @@ body {
     left: -2px;
 }
 
-.demo2.navigation #mobileBodyContent {
+.navigation #mobileBodyContent {
     margin-left: 300px;
     -webkit-opacity: 0.6;
     -moz-opacity: 0.6;
