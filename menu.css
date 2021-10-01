@@ -141,7 +141,7 @@ body {
 
 #nav {
     font-family: 'NanumGothic', sans-serif;
-    position: absolute;
+    position: absolute
     z-index: 10;
     list-style-type: none;
     margin: 50px 0 0 150px;
