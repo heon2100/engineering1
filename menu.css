@@ -11,10 +11,6 @@ html {
     font-style: normal;
  }
 
-@font-face {
-    font-family: 'NanumGothicBold';
-    src: url('fonts/NanumGothicBold.eot');
-    src: url('fonts/NanumGothicBold.eot?#iefix') format('embedded-opentype'), url('fonts/NanumGothicBold.woff') format('woff');
 }
 
 body {
