@@ -5,9 +5,9 @@ html {
 
 @font-face {
     font-family: NanumGothic;
-    src: url(./fonts/NanumGothic.eot);
-    src: url(./fonts/NanumGothic.eot?#iefix) format('embedded-opentype'), url(./fonts/NanumGothic.woff) format('woff');
-    font-weight:400;
+    src: url('fonts/NanumGothic.eot');
+    src: url('fonts/NanumGothic.eot?#iefix') format('embedded-opentype'), url('fonts/NanumGothic.woff') format('woff');
+    font-weight:normal;
     font-style: normal;
  }
 
