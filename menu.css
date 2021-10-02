@@ -40,7 +40,7 @@ body {
     height: 100%;
     overflow: hidden;
     visibility: visible;
-    margin: 0 0 auto;
+    margin: 0 auto;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -khtml-transition: all 0.3s ease-in-out;
