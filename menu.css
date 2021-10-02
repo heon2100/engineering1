@@ -12,6 +12,7 @@ html {
 }
 
 body {
+    margin:0 ;
     background: #f8f7f5;
     font-family: 'NanumGothic', sans-serif;
     color: #888888;
@@ -19,10 +20,10 @@ body {
 
 #mobile {
     height: 800px;
-    width: 350px;
-    background: #c6c4c1;
+    width: 375px;
+    background: #c6c4c1;;
     position: relative;
-    margin: auto;
+    margin: 0 0 auto;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     -khtml-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
@@ -32,13 +33,14 @@ body {
 }
 
 #mobileBodyContent {
-    background: #f8f7f5;
+    background: #f8f7f5;   /*  #f8f7f5;  */
     position: relative;
     z-index: 20;
     width: 100%;
     height: 100%;
     overflow: hidden;
     visibility: visible;
+    margin: 0 0 auto;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -khtml-transition: all 0.3s ease-in-out;
@@ -48,7 +50,7 @@ body {
 
 #header {
     height: 60px;
-    width: 352px;
+    width: 375px;
     background: #eae8e5;
     font-weight: bold;
     color: #4b4b4b;
@@ -103,7 +105,7 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin: 5px 2px 0 0;
+    margin: 0 0 0 0;
 }
 
 #image img {
@@ -137,7 +139,7 @@ body {
     box-sizing: border-box;
     position: absolute;
     z-index: 30;
-    left: 320px;
+    left: 335px;
     top: 15px;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in;
