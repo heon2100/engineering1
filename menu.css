@@ -18,8 +18,8 @@ body {
 }
 
 #mobile {
-    height: 667px;
-    width: 375px;
+    height: 800px;
+    width: 370px;
     background: #c6c4c1;
     position: relative;
     margin: 5px auto;
@@ -48,14 +48,14 @@ body {
 
 #header {
     height: 60px;
-    width: 375px;
+    width: 370px;
     background: #eae8e5;
     font-weight: bold;
     color: #4b4b4b;
 }
 
 #back {
-    border-top: 2px solid #f85051;
+    /* border: 2px solid black; */
     height: 25px;
     width: 30px;
     box-sizing: border-box;
@@ -65,18 +65,37 @@ body {
     top: 15px;
     cursor: pointer;
     float: left;
+    font-size: 25px;
+    line-height:25px;
 }
 
+
 #logo {
-    border: 2px solid #f85051;
+    /* border: 2px solid #f85051; */
     height: 25px;
     width: 35px;
     box-sizing: border-box;
     position: absolute;
     z-index: 30;
-    left: 25px;
+    left: 40px;
     top: 15px;
     float: left;
+    text-align: center;
+    line-height:25px;
+}
+#pagetitle {
+    /* border: 2px solid #f85051; */
+    height: 25px;
+    width: 200px;    
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 30;
+    left: 80px;
+    top: 15px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    line-height:25px;
 }
 
 #image {
@@ -177,6 +196,7 @@ body {
     background: #eae8e5;
     display: block;
     text-align: center;
+    cursor: pointer;
     -webkit-transition: all 0.4s ease-in;
     -moz-transition: all 0.4s ease-in;
     -khtml-transition: all 0.4s ease-in;
