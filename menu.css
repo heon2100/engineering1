@@ -52,9 +52,31 @@ body {
     background: #eae8e5;
     font-weight: bold;
     color: #4b4b4b;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+}
+
+#back {
+    border-top: 2px solid #f85051;
+    height: 25px;
+    width: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 30;
+    left: 5px;
+    top: 15px;
+    cursor: pointer;
+    float: left;
+}
+
+#logo {
+    border: 2px solid #f85051;
+    height: 25px;
+    width: 35px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 30;
+    left: 25px;
+    top: 15px;
+    float: left;
 }
 
 #image {
@@ -83,7 +105,7 @@ body {
 }
 
 #text .item {
-    height: 10px;
+    height: 20px;
     width: calc(100% - 40px);
     margin: 20px auto;
     background: #eae8e5;
@@ -145,7 +167,6 @@ body {
     margin: 50px 0 0 150px;
     padding: 0;
     overflow: hidden;
-    text-align: center;
 }
 
 #nav li {
@@ -154,6 +175,8 @@ body {
     margin-top: 50px;
     margin-left: 100px;
     background: #eae8e5;
+    display: block;
+    text-align: center;
     -webkit-transition: all 0.4s ease-in;
     -moz-transition: all 0.4s ease-in;
     -khtml-transition: all 0.4s ease-in;
