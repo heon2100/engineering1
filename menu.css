@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    margin:0 ;
+    margin:0 auto;
     background: #f8f7f5;
     font-family: 'NanumGothic', sans-serif;
     color: #888888;
@@ -20,7 +20,7 @@ body {
 
 #mobile {
     height: 800px;
-    width: 365px;
+    width: 375px;
     background: #c6c4c1;;
     position: relative;
     margin: 0 auto;
@@ -40,7 +40,7 @@ body {
     height: 100%;
     overflow: hidden;
     visibility: visible;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -khtml-transition: all 0.3s ease-in-out;
@@ -50,7 +50,7 @@ body {
 
 #header {
     height: 60px;
-    width: 365px;
+    width: 375px;
     background: #eae8e5;
     font-weight: bold;
     color: #4b4b4b;
@@ -199,6 +199,7 @@ body {
     display: block;
     text-align: center;
     cursor: pointer;
+    letter-spacing: -10px;
     -webkit-transition: all 0.4s ease-in;
     -moz-transition: all 0.4s ease-in;
     -khtml-transition: all 0.4s ease-in;
@@ -224,6 +225,7 @@ body {
 .navigation #nav li {
     width: 200px;
     margin-left: 0px;
+    letter-spacing: 0;
 }
 
 .navigation #burgerBtn {
