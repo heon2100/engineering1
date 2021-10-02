@@ -63,6 +63,7 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin: 5px 2px 0 0;
 }
 
 #image img {
