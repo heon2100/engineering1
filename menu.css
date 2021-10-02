@@ -21,7 +21,7 @@ body {
 #mobile {
     height: 800px;
     width: 375px;
-    background: #c6c4c1;;
+    background: #c6c4c1;
     position: relative;
     margin: 0 auto;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
@@ -36,11 +36,11 @@ body {
     background: #f8f7f5;   /*  #f8f7f5;  */
     position: relative;
     z-index: 20;
-    width: 100%;
+    width: 375px;
     height: 100%;
     overflow: hidden;
     visibility: visible;
-    /* margin: 0 auto; */
+
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -khtml-transition: all 0.3s ease-in-out;
@@ -48,28 +48,15 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-#header {
+#maintitle {
     height: 60px;
-    width: 375px;
+    width: 500px;
     background: #eae8e5;
     font-weight: bold;
     color: #4b4b4b;
 }
 
-#back {
-    /* border: 2px solid black; */
-    height: 25px;
-    width: 30px;
-    box-sizing: border-box;
-    position: absolute;
-    z-index: 30;
-    left: 5px;
-    top: 15px;
-    cursor: pointer;
-    float: left;
-    font-size: 25px;
-    line-height:25px;
-}
+
 
 
 #logo {
@@ -84,6 +71,10 @@ body {
     float: left;
     text-align: center;
     line-height:25px;
+    background-image: url('img/lotte_logo.png');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
 }
 #pagetitle {
     /* border: 2px solid #f85051; */
@@ -149,6 +140,55 @@ body {
     transition: all 0.3s ease-in;
 }
 
+
+#back {
+    border: solid rgba(0, 0, 0, 0);
+    height: 25px;
+    width: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 30;
+    left: 5px;
+    top: 15px;
+    cursor: pointer;
+    border-inline: none;
+    background: none;
+    line-height:25px;
+}
+#back::before{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1.5px;
+    background: #f85051;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -khtml-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    width: 18px;
+    left: -1px;
+    top: 3.5px;
+    
+}
+#back::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1.5px;
+    background: #f85051;
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -khtml-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg);
+    width: 18px;
+    left: -1px;
+    top: 14px;
+    
+}
+
+
 #burgerBtn::before {
     content: "";
     display: block;
@@ -180,14 +220,31 @@ body {
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
 }
+#navabove {
+    z-index: 10;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    background: #eae8e5;
+    list-style-type: none;
+    margin: 0 0 0 375px;
+    padding: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -khtml-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
 
 #nav {
     position: absolute;
     z-index: 10;
     list-style-type: none;
-    margin: 50px 0 0 150px;
+    margin: 30px 0 0 150px;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden;    
+
 }
 
 #nav li {
@@ -255,6 +312,14 @@ body {
 
 .navigation #mobileBodyContent {
     margin-left: -250px;
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    -o-opacity: 0.6;
+    opacity: 0.6;
+}
+.navigation #navabove {
+    margin-left: 125px;
     -webkit-opacity: 0.6;
     -moz-opacity: 0.6;
     -khtml-opacity: 0.6;
