@@ -114,10 +114,10 @@ body {
     top: 0;
 }
 
-#title {
+#bodytitle {
     height: 20px;
     width: 200px;
-    float: left;
+    margin: 40px auto;
     background: #eae8e5;
     text-align: center;
 }
