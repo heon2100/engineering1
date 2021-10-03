@@ -17,4 +17,8 @@ window.onload = function() {
         },
         false
     );
+
+function upnav () { document.addEventListener('scroll', onScroll, { passive: true }); let last = 0; const gap = 1; const nav = document.querySelector('nav'); const headerheight = document.querySelector('header').clientHeight; function onScroll() { const scrollposition = pageYOffset; if (Math.abs(last - scrollposition) <= gap) return; else if (scrollposition > last || scrollposition<= headerheight) { nav.classList.remove("downdown"); } else if (scrollposition<last) { nav.classList.add("downdown"); } last = scrollposition; } } upnav(); 
+
+
 }
