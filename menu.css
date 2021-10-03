@@ -82,13 +82,13 @@ body {
     background-size: 200%;
     background-position: center;
 }
-#pagetitle {
+#menutitle {
     /* border: 2px solid #f85051; */
     border: 2px solid blue;
     height: 25px;
     width: 200px;    
     box-sizing: border-box;
-    position: absolute;
+    position: center;
     z-index: 30;
     top: 15px;
     cursor: pointer;
@@ -130,7 +130,7 @@ body {
 }
 
 #burgerBtn {
-    float: right;
+    position: right;
     border-top: 2px solid #f85051;
     height: 25px;
     width: 30px;
