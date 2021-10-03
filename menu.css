@@ -86,9 +86,9 @@ body {
     /* border: 2px solid #f85051; */
     border: 2px solid blue;
     height: 25px;
-    width: 200px;    
+    width: 250px;    
     box-sizing: border-box;
-    position: center;
+    float: center;
     z-index: 30;
     top: 15px;
     cursor: pointer;
