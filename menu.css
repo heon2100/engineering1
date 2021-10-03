@@ -130,6 +130,7 @@ body {
 }
 
 #burgerBtn {
+    float: right;
     border-top: 2px solid #f85051;
     height: 25px;
     width: 30px;
