@@ -39,6 +39,7 @@ body {
 
 #mobileBodyContent {
     background: #f8f7f5;   /*  #f8f7f5;  */
+    float: center;
     position: relative;
     z-index: 20;
     width: 100%;
