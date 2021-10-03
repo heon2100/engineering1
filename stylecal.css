@@ -23,7 +23,7 @@ body{
 
 .calculator form{
     display: grid;
-    grid-template-columns: repeat(4, auto); /*표의 행 폭*/
+    grid-template-columns: repeat(4, 1fr); /*표의 행 폭*/
     grid-auto-rows: 65px; /*표의 열 높이*/
     grid-gap: 5px;
 }
