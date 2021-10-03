@@ -55,7 +55,7 @@ body {
 
 #maintitle {
     height: 60px;
-    width: 500px;
+    width: 100%;
     background: #eae8e5;
     font-weight: bold;
     color: #4b4b4b;
@@ -88,10 +88,9 @@ body {
     box-sizing: border-box;
     position: absolute;
     z-index: 30;
-    left: 80px;
     top: 15px;
     cursor: pointer;
-    float: left;
+    float: center;
     text-align: center;
     line-height:25px;
 }
@@ -135,7 +134,7 @@ body {
     box-sizing: border-box;
     position: absolute;
     z-index: 30;
-    right 5px;
+    right 10px;
     top: 15px;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in;
