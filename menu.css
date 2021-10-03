@@ -135,7 +135,7 @@ body {
     box-sizing: border-box;
     position: absolute;
     z-index: 30;
-    left: 335px;
+    right 5px;
     top: 15px;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in;
