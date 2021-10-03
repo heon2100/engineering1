@@ -13,8 +13,9 @@ html {
 
 body {
     display: flex
-    
-margin:0 auto;
+    justify-content: center; 
+    align-items: center; 
+    margin:0;
     background: #f8f7f5;
     font-family: 'NanumGothic', sans-serif;
     color: #888888;
