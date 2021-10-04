@@ -5,52 +5,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+    
+    
     <title>헌우앱개발</title>
 
 
     <link rel="stylesheet" href="menu.css">
-    <script src="menu.js"></script>
+
 
 </head>
 
 <body>
-    <header>
-        <div id="mobile" class="">
-         <nav>네비게이션 메뉴</nav> 
-         <div class="all">
-         <div class="nav2"></div>
-            <ul id="navabove"></ul>
 
+<div id="mobile" class="">
+    <header class="scroll_01">
 
-            <div id="burgerBtn"></div>
+        <div id="back" onclick="goBack()"> </div>
+        <script>
+           function goBack() {
+              window.history.back();
+           }
+        </script>
 
-            <ul id="nav">
-                <li><a href="http://heon2100.github.io/engineering1/main.html">H O M E</a>
-                </li>
-                </a>
-                <li>지역별 풍하중</li>
-                <li>가설방음벽 계산</li>
-                <li>가나다라마 계산</li>
-                <li>계 산 기</li>
-            </ul>
-            
+        <div id="logo">   </div>
 
-            <div id="mobileBodyContent">
+        <div id="headertitle">기술연구원 건축기술연구팀</div>
+        
+        <div id="burgerBtn"></div>
 
-                <div id="contentHead">
+        <div id="navabove"></div>
+
+    </header>    
+
+    <div id="nav">
+        <li><a href="http://heon2100.github.io/engineering1/main.html">
+            H O M E</a>
+        </li>
+        </a>
+        <li>지역별 풍하중</li>
+        <li>가설방음벽 계산</li>
+        <li>가나다라마 계산</li>
+        <li>계 산 기</li>
+        <li>  <button id="buttonl" onclick="location.href='http://webtong.kr' "> 한글은 어떄우</button> </li>
            
-                    <button id="back" onclick="goBack()"> </button>
-                    <!--a href="#" onclick="goBack()">Back</a-->
-                      <script>
-                       function goBack() {
-                          window.history.back();
-                       }
-                      </script>
+    </div>
 
-                    <div id="logo"></div>
-                    <div id="menutitle">기술연구원 건축기술연구팀</div>
-                    
-                </div>
+
+
+    <main>
+
+
+            <div id="mobileMainContent">
+
+                   
 
                 <div id="image">
                     <iframe width=100% height=100% src="https://www.youtube.com/embed/rU2RR1jpMaA?rel=0&autoplay=1&mute=1&loop=1&playlist=rU2RR1jpMaA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -72,12 +80,26 @@
                     <div class="item" style="text-align: center;">본 앱은 개발 중입니다.</div>
                     <div class="item"></div>
                     <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </header>
+      
 
+    </main>
+</div>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="menu.js"></script>
 </body>
 
 
