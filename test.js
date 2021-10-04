@@ -24,11 +24,13 @@ function hasScrolled(){
     }
     if(nowScrollTop > lastScrollTop && nowScrollTop > fixBoxHeight){
         //Scroll down
+        fixBox.classList.add('noshow');
         fixBox.classList.remove('show');
     }else{
         if(nowScrollTop + window.innerHeight < document.body.offsetHeight){
             //Scroll up
             fixBox.classList.add('show');
+            fixBox.classList.remove('noshow');
         }
     }
     lastScrollTop = nowScrollTop;
