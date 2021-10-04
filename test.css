@@ -26,9 +26,24 @@ body {
 
 
 /* CSS */
-.pageTitle,
-.bottomNav {position: fixed; left: 0; top: 0; width: 100%; height: 52px; line-height: 52px; color: #fff; text-align: center;}
 
-.bottomNav {top: -52px; background:#111; 
-    transition:top .2s;}
-.bottomNav.show {top: 0; background:#111;}
+.bottomNav {
+    position: fixed; 
+    left: 0; top: 0; 
+    width: 100%; height: 52px; 
+    line-height: 52px; 
+    background:#111;
+    color: white;
+    text-align: center;
+}
+
+.bottomNav.noshow {
+    top: -52px; 
+    transition:top .2s;
+}
+    
+.bottomNav.show {
+    top: 0; 
+
+    transition:top .2s;
+}
