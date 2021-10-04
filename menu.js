@@ -27,28 +27,41 @@ var nav = document.getElementById("nav");
 
 
 
+//스크롤 이벤트 
+
 var lastScrollTop = 0;
+var delta = 5;
+var fixBox = document.querySelector('.bottomNav');
+var fixBoxHeight = fixBox.offsetHeight;
+var didScroll;
 
-$(window).scroll(function(){
-    var scrollTop = $(this).scrollTop(); /* 스크롤바 수직 위치를 가져옵니다, 괄호 안에 값(value)이 있을 경우 수직 위치를 정합니다. */
-        // scrollTop - 선택한 요소의 스크롤바 수직 위치를 반환하거나 스크롤바 수직 위치를 정하는 메소드
-    
-    if(scrollTop >= 100) { // 숫자에 따라 아래로 스크롤 했을 때 사라지는 영역의 크기가 바뀝니다.
-        if ((scrollTop > lastScrollTop) && (lastScrollTop>0)) { /* &&: AND, 두 값이 모두 참이어야 값이 출력 */
-            /* 화면에 나오지 않을 때: top값을 마이너스로 요소가 보이지 않게 사용해야함 */
-            $(".scroll_01").css("top","-100px");
-        } else {
-            $(".scroll_01").css("top","0px");
-        }
+window.onscroll = function(e) {
+    didScroll = true;
+};
 
-        lastScrollTop = scrollTop;
+//0.25초마다 스크롤 여부 체크하여 스크롤 중이면 hasScrolled() 호출
+setInterval(function(){
+    if(didScroll){
+        hasScrolled();
+        didScroll = false;
     }
+}, 250);
 
-    $(".content").each(function () {
-        var contentIndex = $(this).attr("id");
-        if(scrollTop >= $(this).offset().top) {
-            $(".scroll_03 a").removeClass("on");
-            $(".scroll_03 a[href=#"+contentIndex+"]").addClass("on");
+function hasScrolled(){
+    var nowScrollTop = window.scrollY;
+    if(Math.abs(lastScrollTop - nowScrollTop) <= delta){
+        return;
+    }
+    if(nowScrollTop > lastScrollTop && nowScrollTop > fixBoxHeight){
+        //Scroll down
+        fixBox.classList.add('noshow');
+        fixBox.classList.remove('show');
+    }else{
+        if(nowScrollTop + window.innerHeight < document.body.offsetHeight){
+            //Scroll up
+            fixBox.classList.add('show');
+            fixBox.classList.remove('noshow');
         }
-    })
-});
+    }
+    lastScrollTop = nowScrollTop;
+}
