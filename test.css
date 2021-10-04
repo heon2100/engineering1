@@ -1,11 +1,34 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('fonts/NanumGothic.eot');
+    src: url('fonts/NanumGothic.eot?#iefix') format('embedded-opentype'), url('fonts/NanumGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    justify-content: center; 
+    align-items: center; 
+    margin:0;
+    background: #f8f7f5;
+    font-family: 'NanumGothic', sans-serif;
+    color: #888888;
+    width: 100%;
+    height: 2000px;
+
+    
+}
+
+
 /* CSS */
 .pageTitle,
-.bottomNav {position: fixed; left: 0; bottom: 0; width: 100%; height: 52px; line-height: 52px; color: #fff; text-align: center;}
-.pageTitle {top: 0; background:#111;}
-.bottomNav {bottom: -52px; background:#111; transition:bottom .2s;}
-.bottomNav.show {bottom: 0; background:#111;}
-article {padding: 52px 3% 0;}
-article .block {padding: 20px; min-height: 500px;}
-article .block p {line-height: 22px; color: #fff; font-size: 16px; font-weight: 600;}
-article .block:nth-child(2n+1) {background: #999;}
-article .block:nth-child(2n) {background: #222;}
+.bottomNav {position: fixed; left: 0; top: 0; width: 100%; height: 52px; line-height: 52px; color: #fff; text-align: center;}
+
+.bottomNav {top: -52px; background:#111; 
+    transition:top .2s;}
+.bottomNav.show {top: 0; background:#111;}
