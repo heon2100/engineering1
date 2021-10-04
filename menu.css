@@ -299,6 +299,11 @@ body {
     transition: all 0.4s ease-in;
 
 }
+#nav li input:hover{ 
+     box-shadow: 1px 1px 2px #333;
+      }
+/*마우스 올렸을 때 커지는거*/
+
 
 #nav li+li {
     margin-top: 50px;
