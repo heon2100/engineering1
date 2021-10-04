@@ -1,0 +1,29 @@
+*{margin:0;padding:0}
+
+a{text-decoration:none}
+main {
+    padding-top: 50px;
+}
+.content_wrap>div{height:1000px}
+
+div.content{width:1400px;margin:0 auto}
+
+
+
+/* 스크롤 메뉴 */
+.scroll_01{
+    background-color:crimson;
+    color:#fff
+}
+
+/* 아래로 스크롤하면 배경이 사라지고 위로 스크롤 하면 배경이 생깁니다. */
+.scroll_01{
+    position:fixed;
+    top:0;left:50%;
+    z-index:100;
+    width:100%;
+    padding:10px 0;
+    text-align:center;
+    transform:translate(-50%);
+    transition:all .3s
+}
