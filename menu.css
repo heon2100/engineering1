@@ -51,10 +51,11 @@ body {
     background:#eae8e5;;
     color: rgb(114, 114, 114);
     text-align: center;
+    font-sytyle: bold;
 }
 
 .bottomNav.noshow {
-    top: -46px; 
+    top: -46px;
     transition:top .3s;
 }
     
@@ -158,7 +159,7 @@ body {
 }
 /*------------  로고 박기 끝 --------------*/
 
-/*------------  헤더 타이틀 --------------*/
+/*------------  헤더 타이틀 시작--------------*/
 #headertitle {
     /* border: 2px solid #f85051; */
 
@@ -170,7 +171,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid blue;
-    width: 250px;
+    width: 220px;
     line-height:25px;
     z-index: 30;
     -webkit-transition: all 0.3s ease-in;
@@ -183,7 +184,7 @@ body {
 .navigation #headertitle {
     left: -250px;
 }
-/*------------  헤더 타이틀 --------------*/
+/*------------  헤더 타이틀 끝 --------------*/
 
 
 
@@ -434,44 +435,6 @@ body {
  
 
 
-#buttonl{
-    background:#1AAB8A;
-    color:#fff;
-    border:none;
-    position:relative;
-    height:100%;
-    width:100%;
-    font-size:1.0em;
-    padding:0 2em;
-    cursor:pointer;
-    transition:800ms ease all;
-    outline:none;
-    font-family: 'NanumGothic', sans-serif;
-  }
 
-  #buttonl:hover{
-    background:#fff;
-    color:#1AAB8A;
-  }
-  #buttonl::before,button::after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: #1AAB8A;
-    transition:400ms ease all;
-  }
-  #buttonl:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  #buttonl:hover:before,button:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
   
   
