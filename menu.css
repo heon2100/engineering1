@@ -280,8 +280,8 @@ body {
     display: block;
     height: 30px;
     line-height: 30px;
-    width: 100px;
-    margin-left: 100px;
+    width: 120px;
+    margin-left: 80px;
     box-sizing: border-box;
     background: #eae8e5;
     display: block;
@@ -298,18 +298,18 @@ body {
 
 #nav li+li {
     margin-top: 50px;
+    width: 80px;
+    margin-left: 120px;
+}
+
+#nav li+li+li {
     width: 60px;
     margin-left: 140px;
 }
 
-#nav li+li+li {
+#nav li+li+li+li {
     width: 40px;
     margin-left: 160px;
-}
-
-#nav li+li+li+li {
-    width: 20px;
-    margin-left: 180px;
 }
 
 .navigation #nav li {
@@ -320,7 +320,6 @@ body {
 
 #nav li:hover{ 
     box-shadow: 2px 2px 4px #333;
-    transition-duration: 0.001s;
      }
 /*마우스 올렸을 때 커지는거*/
 
