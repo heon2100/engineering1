@@ -19,8 +19,6 @@ body {
     font-family: 'NanumGothic', sans-serif;
     color: #888888;
     width: 100%;
-
-    
 }
 
 #mobile {
@@ -40,13 +38,14 @@ body {
 
 
 
-/* 스크롤 메뉴 */
+/*------ HEADER 스크롤 메뉴 시작 -------*/
 
 .bottomNav {
     z-index: 30;
     position: fixed; 
     left: 0; top: 0; 
-    width: 100%; height: 46px; 
+    width: 100%; 
+    height: 46px; 
     line-height: 52px; 
     background:#eae8e5;;
     color: rgb(114, 114, 114);
@@ -64,13 +63,13 @@ body {
 
     transition:top .3s;
 }
+/*------ HEADER 스크롤 메뉴 끝 -------*/
 
 
 
 
 
-
-/*------------   뒤로 가기 시작  --------------*/
+/*------------ 뒤로 가기 시작 --------------*/
 
 #back {
     z-index: 30;
@@ -126,13 +125,11 @@ body {
     left: -35px;
 }
 
-/*------------   뒤로 가기 끝  --------------*/
+/*------------ 뒤로 가기 끝 --------------*/
 
 
 
-
-
-/*------------  로고 박기 시작 --------------*/
+/*------------ 로고 박기 시작 --------------*/
 #logo {
     /*border: 2px solid #f85051;*/
     height: 25px;
@@ -157,9 +154,9 @@ body {
 .navigation #logo {
     left: -35px;
 }
-/*------------  로고 박기 끝 --------------*/
+/*------------ 로고 박기 끝 --------------*/
 
-/*------------  헤더 타이틀 시작--------------*/
+/*------------ 헤더 타이틀 시작 --------------*/
 #headertitle {
     /* border: 2px solid #f85051; */
     position: absolute;
@@ -183,11 +180,11 @@ body {
 .navigation #headertitle {
     left: -250px;
 }
-/*------------  헤더 타이틀 끝 --------------*/
+/*------------ 헤더 타이틀 끝 --------------*/
 
 
 
-/* -----------------메뉴버튼 시작 ----------------*/
+/* ----------------- 메뉴버튼 시작 ----------------*/
 #burgerBtn {
     z-index: 30;
     border-top: 2px solid #f85051;
@@ -287,19 +284,17 @@ body {
     margin-left: 100px;
     box-sizing: border-box;
     background: #eae8e5;
-   -webkit-tap-highlight-color : #f85051;
     display: block;
     text-align: center;
     cursor: pointer;
     letter-spacing: -10px;
+    -webkit-tap-highlight-color : #f85051;
     -webkit-transition: all 0.4s ease-in;
     -moz-transition: all 0.4s ease-in;
     -khtml-transition: all 0.4s ease-in;
     -o-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
-
 }
-
 
 
 #nav li+li {
@@ -326,15 +321,64 @@ body {
 
 #nav li:hover{ 
     box-shadow: 2px 2px 4px #333;
+    transition-duration: 0.001s;
      }
 /*마우스 올렸을 때 커지는거*/
 
-/* --------------네비게이션 바 끝 ---------------*/
+/* -------------- 네비게이션 바 끝 ---------------*/
+
+
+/* -------------- 네비게이션 여백 시작 ---------------*/
+#navabove {
+    z-index: 10;
+    height: 46px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #eae8e5;
+    padding: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -khtml-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation #navabove {
+    background: #c6c4c1;
+}
+
+#navabove2 {
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    margin-right: 250px;
+    padding: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -khtml-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation #navabove2 {
+    z-index: 30;
+    background: #c6c4c1;
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    -o-opacity: 0.6;
+    opacity: 0.6;
+}
+
+/* --------------네비게이션 여백 끝 ---------------*/
 
 
 
-
-
+/* -------------- 내용 몸통 시작 ---------------*/
 
 #mobileMainContent {
     background: #f8f7f5;   /*  #f8f7f5;  */
@@ -360,12 +404,6 @@ body {
     -o-opacity: 0.6;
     opacity: 0.6;
 }
-
-
-
-
-
-
 
 #image {
     height: 280px;
@@ -399,39 +437,6 @@ body {
     background: #eae8e5;
 }
 
+/* -------------- 내용 몸통 끝 ---------------*/
 
 
-
-
-
-
-
-
-
-
-
-
-#navabove {
-    z-index: 10;
-    height: 46px;
-    width: 50px;
-    position: absolute;
-    TOP: 0;
-    right: 0;
-    background: eae8e5;
-    padding: 0;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -khtml-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-
-.navigation #navabove {
-
-    background: #c6c4c1;
-}
-
-
-/*-------------- 메뉴버튼 시작 -------------*/
