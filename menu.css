@@ -83,6 +83,7 @@ body {
     cursor: pointer;
     background: none;
     line-height:25px;
+    -webkit-tap-highlight-color : #f85051;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -khtml-transition: all 0.3s ease-in;
@@ -196,6 +197,7 @@ body {
     right: 10px;
     transform: translate(0, -50%);
     cursor: pointer;
+    -webkit-tap-highlight-color : #f85051;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -khtml-transition: all 0.3s ease-in;
