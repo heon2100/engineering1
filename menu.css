@@ -287,7 +287,7 @@ body {
     margin-left: 100px;
     box-sizing: border-box;
     background: #eae8e5;
-        outline-color: #f85051;
+   -webkit-tap-highlight-color : #f85051;
     display: block;
     text-align: center;
     cursor: pointer;
