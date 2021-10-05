@@ -1,12 +1,14 @@
+
+//버거메뉴 눌를 시 생기는 효과아들
 var burgerBtn = document.getElementById("burgerBtn");
 var mobile = document.getElementById("mobile");
 var nav = document.getElementById("nav");
+var navabove2 = document.getElementById("navabove2");
 
     burgerBtn.addEventListener(
         "click",
         function() {
             mobile.classList.toggle("navigation");
-
         },
         false
     );
@@ -15,14 +17,17 @@ var nav = document.getElementById("nav");
         "click",
         function() {
             mobile.classList.toggle("navigation");
-
         },
         false
     );
 
-
-
-
+    navabove2.addEventListener(
+        "click",
+        function() {
+            mobile.classList.toggle("navigation");
+        },
+        false
+    );
 
 
 
