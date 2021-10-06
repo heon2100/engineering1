@@ -1,0 +1,22 @@
+.form-header-group {
+    border-color: #e6e6e6;
+}
+
+.form-header-group .form-header {
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-header-group .form-subHeader {
+    color: #6f6f6f;
+}
+
+div.form-header-group {
+    padding: 12px 0px !important;
+    margin: 0 18px 2%;
+    margin-left: 5%!important;
+    margin-right: 5%!important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
