@@ -12,9 +12,9 @@ html {
 }
 
 body {
-    justify-content: center; 
-    align-items: center; 
-    margin:0;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     background: #f8f7f5;
     font-family: 'NanumGothic', sans-serif;
     color: #888888;
@@ -33,40 +33,38 @@ body {
     -o-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    min-width:280px;
+    min-width: 280px;
 }
-
 
 
 /*------ HEADER 스크롤 메뉴 시작 -------*/
 
 .bottomNav {
     z-index: 30;
-    position: fixed; 
-    left: 0; top: 0; 
-    width: 100%; 
-    height: 46px; 
-    line-height: 52px; 
-    background:#eae8e5;;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 46px;
+    line-height: 52px;
+    background: #eae8e5;
+    ;
     color: rgb(114, 114, 114);
     text-align: center;
-    
 }
 
 .bottomNav.noshow {
     top: -46px;
-    transition:top .3s;
+    transition: top .3s;
 }
-    
+
 .bottomNav.show {
-    top: 0; 
-
-    transition:top .3s;
+    top: 0;
+    transition: top .3s;
 }
+
+
 /*------ HEADER 스크롤 메뉴 끝 -------*/
-
-
-
 
 
 /*------------ 뒤로 가기 시작 --------------*/
@@ -78,19 +76,20 @@ body {
     box-sizing: border-box;
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 5px;
     transform: translate(0, -50%);
     cursor: pointer;
     background: none;
-    line-height:25px;
-    -webkit-tap-highlight-color : #ff191915;
+    line-height: 25px;
+    -webkit-tap-highlight-color: #ff191941;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -khtml-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
 }
-#back::before{
+
+#back::before {
     content: "";
     display: block;
     position: absolute;
@@ -102,11 +101,11 @@ body {
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     width: 18px;
-    left: -1px;
+    left: 3px;
     top: 6.25px;
-    
 }
-#back::after{
+
+#back::after {
     content: "";
     display: block;
     position: absolute;
@@ -118,19 +117,20 @@ body {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
     width: 18px;
-    left: -1px;
+    left: 3px;
     top: 18px;
-    
 }
+
 .navigation #back {
     left: -35px;
 }
 
+
 /*------------ 뒤로 가기 끝 --------------*/
 
 
-
 /*------------ 로고 박기 시작 --------------*/
+
 #logo {
     /*border: 2px solid #f85051;*/
     height: 25px;
@@ -141,7 +141,7 @@ body {
     top: 50%;
     left: 35px;
     transform: translate(0, -50%);
-    line-height:25px;
+    line-height: 25px;
     background-image: url('img/lotte_logo.png');
     background-repeat: no-repeat;
     background-size: 200%;
@@ -152,12 +152,17 @@ body {
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
 }
+
 .navigation #logo {
     left: -35px;
 }
+
+
 /*------------ 로고 박기 끝 --------------*/
 
+
 /*------------ 헤더 타이틀 시작 --------------*/
+
 #headertitle {
     /* border: 2px solid #f85051; */
     position: absolute;
@@ -168,7 +173,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 220px;
-    line-height:25px;
+    line-height: 25px;
     font-weight: bold;
     z-index: 30;
     -webkit-transition: all 0.3s ease-in;
@@ -181,11 +186,13 @@ body {
 .navigation #headertitle {
     left: -250px;
 }
+
+
 /*------------ 헤더 타이틀 끝 --------------*/
 
 
-
 /* ----------------- 메뉴버튼 시작 ----------------*/
+
 #burgerBtn {
     z-index: 30;
     border-top: 2px solid #f85051;
@@ -197,7 +204,7 @@ body {
     right: 10px;
     transform: translate(0, -50%);
     cursor: pointer;
-    -webkit-tap-highlight-color : #ff191915;
+    -webkit-tap-highlight-color: #ff191941;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -khtml-transition: all 0.3s ease-in;
@@ -237,7 +244,6 @@ body {
     transition: all 0.3s ease-in;
 }
 
-
 .navigation #burgerBtn {
     border-color: transparent;
 }
@@ -263,10 +269,12 @@ body {
     left: -2px;
 }
 
+
 /* ----------------- 메뉴버튼 끝 ------------------*/
 
 
 /* ------------- 네비게이션 바 시작 ---------------*/
+
 #nav {
     position: fixed;
     top: 60px;
@@ -274,7 +282,7 @@ body {
     z-index: 10;
     list-style-type: none;
     margin-right: 25px;
-    padding: 0;      
+    padding: 0;
     display: hidden;
 }
 
@@ -290,7 +298,7 @@ body {
     text-align: center;
     cursor: pointer;
     letter-spacing: -10px;
-    -webkit-tap-highlight-color : #ff191993;
+    -webkit-tap-highlight-color: #ff19197e;
     -webkit-transition: all 0.4s ease-in;
     -moz-transition: all 0.4s ease-in;
     -khtml-transition: all 0.4s ease-in;
@@ -317,18 +325,22 @@ body {
 .navigation #nav li {
     width: 200px;
     margin-left: 0px;
-    letter-spacing: 0;    
+    letter-spacing: 0;
 }
 
-#nav li:hover{ 
+#nav li:hover {
     box-shadow: 2px 2px 4px #333;
-     }
+}
+
+
 /*마우스 올렸을 때 커지는거*/
+
 
 /* -------------- 네비게이션 바 끝 ---------------*/
 
 
 /* -------------- 네비게이션 여백 시작 ---------------*/
+
 #navabove {
     z-index: 10;
     height: 46px;
@@ -375,14 +387,15 @@ body {
     opacity: 0.3;
 }
 
-/* --------------네비게이션 여백 끝 ---------------*/
 
+/* --------------네비게이션 여백 끝 ---------------*/
 
 
 /* -------------- 내용 몸통 시작 ---------------*/
 
 #mobileMainContent {
-    background: #f8f7f5;   /*  #f8f7f5;  */
+    background: #f8f7f5;
+    /*  #f8f7f5;  */
     margin-top: 46px;
     position: relative;
     z-index: 20;
@@ -438,6 +451,5 @@ body {
     background: #eae8e5;
 }
 
+
 /* -------------- 내용 몸통 끝 ---------------*/
-
-
