@@ -6,7 +6,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     <title>매크로로 칼로리 계산하는거</title>
 
     <!----시작 (여기다 스타일을 넣어주세요)  시작---->
@@ -65,208 +66,240 @@
                     <input type="hidden" name="formID" value="212773423565458" />
                     <input type="hidden" id="JWTContainer" value="" />
                     <input type="hidden" id="cardinalOrderNumber" value="" />
-                    <div role="main" class="form-all">
+
                         <ul class="form-section" style="list-style-type: none;">
 
                             <div class="form-header-group">
                                 <div class="header-text httac htvam">
                                     <h2 id="header_1" class="form-header" data-component="header">
-                                        매크로, 계산 개발 중
+                                        매크로, 계산 개발 중sd
                                     </h2>
                                 </div>
                             </div>
+                            <li class="picture"> 변수에 따라 바뀌는 그림 삽입 예정 </li>
+                            <table class="table1">
+                                <tr>
+                                    <td>설치높이(H)* </td>
 
-                            <li class="form-line jf-required" data-type="control_textbox" id="id_3">
-                                <label class="form-label form-label-left form-label-auto" id="label_3" for="input_3">
-                                   나이*
-                            </span>
-                             </label>
-                                <div id="cid_3" class="form-input jf-required">
-                                    <span class="form-sub-label-container" style="vertical-align:top">
-              <input type="text" id="input_3" name="q3_age" data-type="input-textbox" class="form-textbox validate[required, Fill Mask]" data-defaultvalue="" size="20" data-masked="true" value="" data-component="textbox" aria-labelledby="label_3 sublabel_input_3" required="" />
-              <label class="form-sub-label" for="input_3" id="sublabel_input_3" style="min-height:13px" aria-hidden="false"> Years </label>
-            </span>
-                                </div>
-                            </li>
-                            <li class="form-line jf-required" data-type="control_radio" id="id_4">
-                                <label class="form-label form-label-left form-label-auto" id="label_4" for="input_4">
-              성별*
-  
-          </label>
-                                <div id="cid_4" class="form-input jf-required">
-                                    <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_4" data-component="radio">
-                                        <span class="form-radio-item">
-                <span class="dragger-item">
-                </span>
-                                        <input type="radio" aria-describedby="label_4" class="form-radio validate[required]" id="input_4_0" name="q4_sex" value="Male" data-calcvalue="6" required="" />
-                                        <label id="label_input_4_0" for="input_4_0"> Male </label>
-
-                                        <span class="form-radio-item">
-                <span class="dragger-item">
-                </span>
-                                        <input type="radio" aria-describedby="label_4" class="form-radio validate[required]" id="input_4_1" name="q4_sex" value="Female" data-calcvalue="-161" required="" />
-                                        <label id="label_input_4_1" for="input_4_1"> Female </label>
+                                    <td><span class="form-sub-label-container">
+                                            <input type="number" id="input_3" name="q3_age" data-type="input-textbox"
+                                                class="form-textbox validate[required, Fill Mask]" data-defaultvalue=""
+                                                size="20" data-masked="true" value="" data-component="textbox"
+                                                aria-labelledby="label_3 sublabel_input_3" required="" />
                                         </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="form-line jf-required" data-type="control_textbox" id="id_5">
-                                <label class="form-label form-label-left form-label-auto" id="label_5" for="input_5">
-            Height (cm)
-              *
-            </span>
-          </label>
-                                <div id="cid_5" class="form-input jf-required">
-                                    <span class="form-sub-label-container" style="vertical-align:top">
-              <input type="text" id="input_5" name="q5_heightcm" data-type="input-textbox" class="form-textbox validate[required, Numeric]" data-defaultvalue="" size="20" value="" data-component="textbox" aria-labelledby="label_5 sublabel_input_5" required="" />
-              <label class="form-sub-label" for="input_5" id="sublabel_input_5" style="min-height:13px" aria-hidden="false"> cm </label>
-            </span>
-                                </div>
-                            </li>
-                            <li class="form-line form-line-column form-col-1" data-type="control_widget" id="id_19">
-                                <label class="form-label form-label-top" id="label_19" for="input_19"> Convert imperical units to metrical </label>
-                                <div id="cid_19" class="form-input-wide">
-                                    <div data-widget-name="Height Converter" style="width:100%;text-align:Center;overflow-x:auto" data-component="widget-field">
-                                        <iframe data-client-id="529c3957f386a53c39000005" title="Height Converter" frameBorder="0" scrolling="no" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame"
-                                            id="customFieldFrame_19" src="" style="max-width:300px;border:none;width:100%;height:40px" data-width="300" data-height="40">
-              </iframe>
-                                        <div class="widget-inputs-wrapper">
-                                            <input type="hidden" id="input_19" class="form-hidden form-widget  " name="q19_convertImperical" value="" />
-                                            <input type="hidden" id="widget_settings_19" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22defaultType%22%2C%22value%22%3A%22Feet%22%7D%5D" data-version="2" />
+                                    </td>
+                                    <td> m </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td  class="form-line" data-type="control_dropdown" id="id_17">
+                                        <label class="form-label form-label-left form-label-auto" id="label_17" for="input_17"> 주주 부재</label>
+                                    </td>
+                                    <td>
+                                        <div colspan="2" id="cid_17" class="form-input">
+                                            <select class="form-dropdown" id="input_17" name="q17_activityLevel" style="width:150px"
+                                                data-component="dropdown">
+                                                <option value=""> </option>
+                                                <option selected="" data-calcvalue="1.2" value="Passive: office work and no workout">
+                                                    H-200x200x9/12 </option>
+                                                <option data-calcvalue="1.375"
+                                                    value="Light: light physical work or light workout 1-3 x a week"> 
+                                                    H-200x150x8/11 </option>
+                                                <option data-calcvalue="1.55"
+                                                    value="Moderate: moderate physical work or workout 3-5x a week"> 
+                                                    H-148x100x6/9 </option>
+                                                <option data-calcvalue="1.725"
+                                                    value="High activity levels: very hard physical work or long workouts 6-7x a week">
+                                                    H-148x100x6/9</option>
+                                                <option data-calcvalue="1.9" value="Athlete (1-2x workouts daily)"> 
+                                                    Φ48.6x2.3 </option>
+                                            </select>
                                         </div>
-                                        <script type="text/javascript">
-                                            setTimeout(function() {
-                                                var _cFieldFrame = document.getElementById("customFieldFrame_19");
-                                                if (_cFieldFrame) {
-                                                    _cFieldFrame.onload = function() {
-                                                        if (typeof widgetFrameLoaded !== 'undefined') {
-                                                            widgetFrameLoaded(19, {
-                                                                "formID": 212773423565458
-                                                            })
-                                                        }
-                                                    };
-                                                    _cFieldFrame.src = "//widgets.jotform.io/height/?qid=19&ref=" + encodeURIComponent(window.location.protocol + "//" + window.location.host) + '' + '' + '&injectCSS=' + encodeURIComponent(window.location.search.indexOf("ndt=1") > -1);
-                                                    _cFieldFrame.addClassName("custom-field-frame-rendered");
-                                                }
-                                            }, 0);
-                                        </script>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="form-line" data-type="control_radio" id="id_18">
-                                <label class="form-label form-label-left form-label-auto" id="label_18" for="input_18"> Goal </label>
-                                <div id="cid_18" class="form-input">
-                                    <div class="form-single-column" role="group" aria-labelledby="label_18" data-component="radio">
-                                        <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
-                                        <input type="radio" aria-describedby="label_18" class="form-radio" id="input_18_0" name="q18_goal" value="Lose weight" data-calcvalue="0.8" />
-                                        <label id="label_input_18_0" for="input_18_0"> Lose weight </label>
-                                        </span>
-                                        <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
-                                        <input type="radio" aria-describedby="label_18" class="form-radio" id="input_18_1" name="q18_goal" value="Build as much muscle as fat is burnt, weight stays the same" data-calcvalue="1" />
-                                        <label id="label_input_18_1" for="input_18_1"> Build as much muscle as fat is burnt, weight stays the same </label>
-                                        </span>
-                                        <span class="form-radio-item" style="clear:left">
-                <span class="dragger-item">
-                </span>
-                                        <input type="radio" aria-describedby="label_18" class="form-radio" id="input_18_2" name="q18_goal" value="Gain lean weight/muscle" data-calcvalue="1.2" />
-                                        <label id="label_input_18_2" for="input_18_2"> Gain lean weight/muscle </label>
-                                        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="form-line" data-type="control_dropdown" id="id_17">
-                                <label class="form-label form-label-left form-label-auto" id="label_17" for="input_17"> Activity level </label>
-                                <div id="cid_17" class="form-input">
-                                    <select class="form-dropdown" id="input_17" name="q17_activityLevel" style="width:150px" data-component="dropdown">
-              <option value="">  </option>
-              <option selected="" data-calcvalue="1.2" value="Passive: office work and no workout"> Passive: office work and no workout </option>
-              <option data-calcvalue="1.375" value="Light: light physical work or light workout 1-3 x a week"> Light: light physical work or light workout 1-3 x a week </option>
-              <option data-calcvalue="1.55" value="Moderate: moderate physical work or workout 3-5x a week"> Moderate: moderate physical work or workout 3-5x a week </option>
-              <option data-calcvalue="1.725" value="High activity levels: very hard physical work or long workouts 6-7x a week"> High activity levels: very hard physical work or long workouts 6-7x a week </option>
-              <option data-calcvalue="1.9" value="Athlete (1-2x workouts daily)"> Athlete (1-2x workouts daily) </option>
-            </select>
-                                </div>
-                            </li>
-                            <li class="form-line always-hidden" data-type="control_calculation" id="id_6">
-                                <label class="form-label form-label-left form-label-auto" id="label_6" for="input_6"> Calories </label>
-                                <div id="cid_6" class="form-input always-hidden">
-                                    <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_6" name="q6_calories" value="0" size="20" />
-                                </div>
-                            </li>
-                            <li class="form-line always-hidden" data-type="control_calculation" id="id_11">
-                                <label class="form-label form-label-left form-label-auto" id="label_11" for="input_11"> Protein </label>
-                                <div id="cid_11" class="form-input always-hidden">
-                                    <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_11" name="q11_protein" value="0" size="20" />
-                                </div>
-                            </li>
-                            <li class="form-line always-hidden" data-type="control_calculation" id="id_14">
-                                <label class="form-label form-label-left form-label-auto" id="label_14" for="input_14"> Carbohydrates </label>
-                                <div id="cid_14" class="form-input always-hidden">
-                                    <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_14" name="q14_carbohydrates" value="0" size="20" />
-                                </div>
-                            </li>
-                            <li class="form-line always-hidden" data-type="control_calculation" id="id_15">
-                                <label class="form-label form-label-left form-label-auto" id="label_15" for="input_15"> xx </label>
-                                <div id="cid_15" class="form-input always-hidden">
-                                    <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_15" name="q15_xx" value="0" size="20" />
-                                </div>
-                            </li>
-                            <li class="form-line always-hidden" data-type="control_calculation" id="id_13">
-                                <label class="form-label form-label-left form-label-auto" id="label_13" for="input_13"> Fats </label>
-                                <div id="cid_13" class="form-input always-hidden">
-                                    <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_13" name="q13_fats13" value="0" size="20" />
-                                </div>
-                            </li>
-                            <li class="form-line" data-type="control_text" id="id_8">
-                                <div id="cid_8" class="form-input-wide">
-                                    <div id="text_8" class="form-html" data-component="text">
-                                        <strong>Calories {calories} kcal</strong>
-                                        <strong>Protein {protein} g</strong>
-                                        <strong>Cabrohydrate {carbohydrates} g</strong>
-                                        <strong>Fat {fats13} g</strong>
+                                    </td>
+                                </tr>
+                                <td> 설치간격(S)*</td>
 
-                                    </div>
-                                </div>
-                            </li>
-                            <li style="display:none">
-                                Should be Empty:
-                                <input type="text" name="website" value="" />
-                            </li>
-                        </ul>
-                    </div>
-                    <script>
-                        JotForm.showJotFormPowered = "new_footer";
-                    </script>
-                    <script>
-                        JotForm.poweredByText = "Powered by Jotform";
-                    </script>
-                    <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="212773423565458" />
-                    <script type="text/javascript">
-                        var all_spc = document.querySelectorAll("form[id='212773423565458'] .si" + "mple" + "_spc");
-                        for (var i = 0; i < all_spc.length; i++) {
-                            all_spc[i].value = "212773423565458-212773423565458";
-                        }
-                    </script>
+                                <td>
 
-                </form>
+                                    <span class="form-sub-label-container" style="vertical-align:top">
+                                        <input type="text" id="input_5" name="q5_heightcm" data-type="input-textbox"
+                                            class="form-textbox validate[required, Numeric]" data-defaultvalue=""
+                                            size="20" value="" data-component="textbox"
+                                            aria-labelledby="label_5 sublabel_input_5" required="" />
+                                </td>
+                                <td> m </td>
+                            </table>
 
 
+                    <li>
+                        <span> 토사 조건*</span>
+
+                     
+                                <span class="form-radio-item">
+                                    <span class="dragger-item">
+                                    </span>
+                                    <input type="radio" aria-describedby="label_4" 
+                                        class="form-radio validate[required]"
+                                        id="input_4_0" name="q4_sex" value="Male" data-calcvalue="6" required="" />
+                                    <label id="label_input_4_0" for="input_4_0"> 일반토사 </label>
+                                </span>
+                                <span class="form-radio-item">
+                                    <span class="dragger-item">
+                                    </span>
+                                    <input type="radio" aria-describedby="label_4"
+                                        class="form-radio validate[required]" 
+                                        id="input_4_1" name="q4_sex" value="Female" data-calcvalue="-161" required="" />
+                                    <label id="label_input_4_1" for="input_4_1"> 성토토사 </label>
+                                </span>
+                           
+                       
+                    </li>
 
 
+                   
+                    <li class="form-line" data-type="control_radio" id="id_18">
+                        <label class="form-label form-label-left form-label-auto" id="label_18" for="input_18"> Goal
+                        </label>
+                        <div id="cid_18" class="form-input">
+                            <div class="form-single-column" role="group" aria-labelledby="label_18"
+                                data-component="radio">
+                                <span class="form-radio-item" style="clear:left">
+                                    <span class="dragger-item">
+                                    </span>
+                                    <input type="radio" aria-describedby="label_18" class="form-radio" id="input_18_0"
+                                        name="q18_goal" value="Lose weight" data-calcvalue="0.8" />
+                                    <label id="label_input_18_0" for="input_18_0"> Lose weight </label>
+                                </span>
+                                <span class="form-radio-item" style="clear:left">
+                                    <span class="dragger-item">
+                                    </span>
+                                    <input type="radio" aria-describedby="label_18" class="form-radio" id="input_18_1"
+                                        name="q18_goal"
+                                        value="Build as much muscle as fat is burnt, weight stays the same"
+                                        data-calcvalue="1" />
+                                    <label id="label_input_18_1" for="input_18_1"> Build as much muscle as fat is burnt,
+                                        weight stays the same </label>
+                                </span>
+                                <span class="form-radio-item" style="clear:left">
+                                    <span class="dragger-item">
+                                    </span>
+                                    <input type="radio" aria-describedby="label_18" class="form-radio" id="input_18_2"
+                                        name="q18_goal" value="Gain lean weight/muscle" data-calcvalue="1.2" />
+                                    <label id="label_input_18_2" for="input_18_2"> Gain lean weight/muscle </label>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="form-line" data-type="control_dropdown" id="id_17">
+                        <label class="form-label form-label-left form-label-auto" id="label_17" for="input_17"> Activity
+                            level </label>
+                        <div id="cid_17" class="form-input">
+                            <select class="form-dropdown" id="input_17" name="q17_activityLevel" style="width:150px"
+                                data-component="dropdown">
+                                <option value=""> </option>
+                                <option selected="" data-calcvalue="1.2" value="Passive: office work and no workout">
+                                    Passive: office work and no workout </option>
+                                <option data-calcvalue="1.375"
+                                    value="Light: light physical work or light workout 1-3 x a week"> Light: light
+                                    physical work or light workout 1-3 x a week </option>
+                                <option data-calcvalue="1.55"
+                                    value="Moderate: moderate physical work or workout 3-5x a week"> Moderate: moderate
+                                    physical work or workout 3-5x a week </option>
+                                <option data-calcvalue="1.725"
+                                    value="High activity levels: very hard physical work or long workouts 6-7x a week">
+                                    High activity levels: very hard physical work or long workouts 6-7x a week </option>
+                                <option data-calcvalue="1.9" value="Athlete (1-2x workouts daily)"> Athlete (1-2x
+                                    workouts daily) </option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="form-line always-hidden" data-type="control_calculation" id="id_6">
+                        <label class="form-label form-label-left form-label-auto" id="label_6" for="input_6"> Calories
+                        </label>
+                        <div id="cid_6" class="form-input always-hidden">
+                            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox"
+                                data-type="input-textbox" id="input_6" name="q6_calories" value="0" size="20" />
+                        </div>
+                    </li>
+                    <li class="form-line always-hidden" data-type="control_calculation" id="id_11">
+                        <label class="form-label form-label-left form-label-auto" id="label_11" for="input_11"> Protein
+                        </label>
+                        <div id="cid_11" class="form-input always-hidden">
+                            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox"
+                                data-type="input-textbox" id="input_11" name="q11_protein" value="0" size="20" />
+                        </div>
+                    </li>
+                    <li class="form-line always-hidden" data-type="control_calculation" id="id_14">
+                        <label class="form-label form-label-left form-label-auto" id="label_14" for="input_14">
+                            Carbohydrates </label>
+                        <div id="cid_14" class="form-input always-hidden">
+                            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox"
+                                data-type="input-textbox" id="input_14" name="q14_carbohydrates" value="0" size="20" />
+                        </div>
+                    </li>
+                    <li class="form-line always-hidden" data-type="control_calculation" id="id_15">
+                        <label class="form-label form-label-left form-label-auto" id="label_15" for="input_15"> xx
+                        </label>
+                        <div id="cid_15" class="form-input always-hidden">
+                            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox"
+                                data-type="input-textbox" id="input_15" name="q15_xx" value="0" size="20" />
+                        </div>
+                    </li>
+                    <li class="form-line always-hidden" data-type="control_calculation" id="id_13">
+                        <label class="form-label form-label-left form-label-auto" id="label_13" for="input_13"> Fats
+                        </label>
+                        <div id="cid_13" class="form-input always-hidden">
+                            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox"
+                                data-type="input-textbox" id="input_13" name="q13_fats13" value="0" size="20" />
+                        </div>
+                    </li>
+                    <li class="form-line" data-type="control_text" id="id_8">
+                        <div id="cid_8" class="form-input-wide">
+                            <div id="text_8" class="form-html" data-component="text">
+                                <strong>Calories {calories} kcal</strong>
+                                <strong>Protein {protein} g</strong>
+                                <strong>Cabrohydrate {carbohydrates} g</strong>
+                                <strong>Fat {fats13} g</strong>
 
-
-                <!------- 여기서 부터 복사 ------------------------------------------------------------->
-                <!------------------------------------------------------------------------------------->
-
-                <!------------ 끝 (여기까지 몸통(컨텐츠)을 넣어주세요) 끝---------------------------------------->
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:none">
+                        Should be Empty:
+                        <input type="text" name="website" value="" />
+                    </li>
+                    </ul>
             </div>
-        </main>
+            <script>
+                JotForm.showJotFormPowered = "new_footer";
+            </script>
+            <script>
+                JotForm.poweredByText = "Powered by Jotform";
+            </script>
+            <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="212773423565458" />
+            <script type="text/javascript">
+                var all_spc = document.querySelectorAll("form[id='212773423565458'] .si" + "mple" + "_spc");
+                for (var i = 0; i < all_spc.length; i++) {
+                    all_spc[i].value = "212773423565458-212773423565458";
+                }
+            </script>
 
-        <footer></footer>
+            </form>
+
+
+
+
+
+
+            <!------- 여기서 부터 복사 ------------------------------------------------------------->
+            <!------------------------------------------------------------------------------------->
+
+            <!------------ 끝 (여기까지 몸통(컨텐츠)을 넣어주세요) 끝---------------------------------------->
+    </div>
+    </main>
+
+    <footer></footer>
     </div>
 
     <!------------ 시작 (여기부터 자바스크립트를 넣어주세요) 시작---------------------------------------->
