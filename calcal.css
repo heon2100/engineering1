@@ -22,6 +22,27 @@ div.form-header-group {
 }
 
 
+.picture {
+    height: 300px;
+    padding: 0;
+    margin: 2% 18px 2%;
+    border-color:#b31818;
+    text-align: center;
+    vertical-align: center;
+    box-sizing: border-box;
+}
+
+.table1 {
+border: 1px;
+    border-color:blue;
+    width : 500px; 
+    height:300px; 
+    align-items: center; 
+    border-spacing: 5px 10px;
+    padding: 20px;
+}
+
+
 /* Injected CSS Code */
 
 .form-all {
@@ -73,23 +94,10 @@ div.form-header-group {
 }
 
 
-/*
-    @width30: (unit(@formWidth, px) + 60px);
-    @width60: (unit(@formWidth, px)+ 120px);
-    @width90: (unit(@formWidth, px)+ 180px);
-    */
 
 
 /* | */
 
-@media screen and (min-width: 480px) {
-    .supernova .form-all {
-        border: 1px solid #dcdcdc;
-        -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
-        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
-    }
-}
 
 
 /* | */
@@ -97,63 +105,14 @@ div.form-header-group {
 
 /* | */
 
-@media screen and (max-width: 480px) {
-    .jotform-form .form-all {
-        margin: 0;
-        width: 100%;
-    }
-}
 
 
 /* | */
 
 
-/* | */
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    .jotform-form .form-all {
-        margin: 0;
-        width: 100%;
-    }
-}
-
 
 /* | */
 
-
-/* | */
-
-@media screen and (min-width: 480px) and (max-width: 399px) {
-    .jotform-form .form-all {
-        margin: 0;
-        width: 100%;
-    }
-}
-
-
-/* | */
-
-
-/* | */
-
-@media screen and (min-width: 768px) {
-    .jotform-form {
-        padding: 60px 0;
-    }
-}
-
-
-/* | */
-
-
-/* | */
-
-@media screen and (max-width: 399px) {
-    .jotform-form .form-all {
-        margin: 0;
-        width: 100%;
-    }
-}
 
 
 /* | */
@@ -360,10 +319,11 @@ div.form-header-group {
 
 .form-radio-item:not(#foo) label {
     line-height: 18px;
-    float: left;
+
     margin-left: 37px;
     outline: none !important;
 }
+
 
 .form-radio-item:not(#foo) label:before {
     content: '';
@@ -1171,7 +1131,7 @@ screen and (max-device-width: 415px) and (orientation: landscape) {
         max-width: initial;
     }
     .form-sub-label-container {
-        width: 100%;
+        width: 200px;
         margin: 0;
         margin-right: 0;
         float: left;
