@@ -49,6 +49,10 @@ border: 1px;
 .table1 td{
     width: 200px;
 }
+.table1 td td{
+    width: 100px;
+}
+
 
 /* Injected CSS Code */
 
