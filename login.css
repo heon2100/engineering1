@@ -373,14 +373,7 @@ button {
     top: 279.627px;
     transform: matrix(1,0,0,1,0,0);
 }
-#LOGO {
-    position: absolute;
-    width: 24px;
-    height: 22px;
-    left: 88px;
-    top: 40px;
-    overflow: visible;
-}
+
 #n_ {
     left: 111px;
     top: 41px;
